@@ -32,8 +32,6 @@
 ```
 # NOTE for the haesware shop
 Dont forget to add the two items in your hardware shop.
-1. oxycutter
-2. oxygen-tank
 ```lua
 
 [16] = {
