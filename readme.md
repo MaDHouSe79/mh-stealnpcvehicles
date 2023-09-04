@@ -4,10 +4,10 @@
 
 # Add in `qb-core/shared/items.lua`
 ```lua
--- mh-stealnpcvehicles items
-["axleparts"]                   = {["name"] = "axleparts",			        ["label"] = "axleparts",	    	    ["weight"] = 0, ["type"] = "item",  ["image"] = "axleparts.png",     ["unique"] = false,  ["useable"] = true, ["shouldClose"] = true, ["description"] = "axleparts"},
-["brakes1"]                     = {["name"] = "brakes1",			        ["label"] = "brakes1",	    	        ["weight"] = 0, ["type"] = "item",  ["image"] = "brakes1.png",       ["unique"] = false,  ["useable"] = true, ["shouldClose"] = true, ["description"] = "brakes1"},
-["bumper"]                      = {["name"] = "bumper",			            ["label"] = "bumper",	    	        ["weight"] = 0, ["type"] = "item",  ["image"] = "bumper.png",        ["unique"] = false,  ["useable"] = true, ["shouldClose"] = true, ["description"] = "bumper"},
+    -- mh-stealnpcvehicles items
+    ["axleparts"]                   = {["name"] = "axleparts",			        ["label"] = "axleparts",	    	    ["weight"] = 0, ["type"] = "item",  ["image"] = "axleparts.png",     ["unique"] = false,  ["useable"] = true, ["shouldClose"] = true, ["description"] = "axleparts"},
+    ["brakes1"]                     = {["name"] = "brakes1",			        ["label"] = "brakes1",	    	        ["weight"] = 0, ["type"] = "item",  ["image"] = "brakes1.png",       ["unique"] = false,  ["useable"] = true, ["shouldClose"] = true, ["description"] = "brakes1"},
+    ["bumper"]                      = {["name"] = "bumper",			            ["label"] = "bumper",	    	        ["weight"] = 0, ["type"] = "item",  ["image"] = "bumper.png",        ["unique"] = false,  ["useable"] = true, ["shouldClose"] = true, ["description"] = "bumper"},
     ["carbattery"]                  = {["name"] = "carbattery",			        ["label"] = "carbattery",	    	    ["weight"] = 0, ["type"] = "item",  ["image"] = "carbattery.png",    ["unique"] = false,  ["useable"] = true, ["shouldClose"] = true, ["description"] = "carbattery"},
     ["door"]                        = {["name"] = "door",			            ["label"] = "door",	    	            ["weight"] = 0, ["type"] = "item",  ["image"] = "door.png",          ["unique"] = false,  ["useable"] = true, ["shouldClose"] = true, ["description"] = "car door"},
     ["engine1"]                     = {["name"] = "engine1",			        ["label"] = "engine1",	    	        ["weight"] = 0, ["type"] = "item",  ["image"] = "engine1.png",       ["unique"] = false,  ["useable"] = true, ["shouldClose"] = true, ["description"] = "car engine1"},
