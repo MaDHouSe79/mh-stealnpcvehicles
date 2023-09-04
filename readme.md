@@ -29,6 +29,27 @@
     ['oxygen-tank']                 = {['name'] = 'oxygen-tank', 				['label'] = 'Oxygen Tank', 				['weight'] = 500, 		['type'] = 'item', 		['image'] = 'oxygen-tank.png', 	        		['unique'] = false, 	['useable'] = false, 	['shouldClose'] = false, 	['combinable'] = nil, 	['description'] = 'Oxygen Tank'},
     ['electric_scrap']              = {['name'] = 'electric_scrap', 			['label'] = 'Electric Scrap', 			['weight'] = 0, 		['type'] = 'item', 		['image'] = 'electric_scrap.png',         		['unique'] = false, 	['useable'] = false, 	['shouldClose'] = false, 	['combinable'] = nil, 	['description'] = 'Electric Scrap'},
     ['ducttape']                    = {['name'] = 'ducttape', 					['label'] = 'ducttape', 				['weight'] = 100, 		['type'] = 'item', 		['image'] = 'ducttape.png', 		        	['unique'] = false, 	['useable'] = false, 	['shouldClose'] = false, 	['combinable'] = nil, 	['description'] = 'ducttape'},
+```
+# NOTE for the haesware shop
+Dont forget to add the two items in your hardware shop.
+1. oxycutter
+2. oxygen-tank
+```lua
 
-
+[16] = {
+    name = "oxycutter",
+    price = 5000,
+    amount = 15,
+    info = {},
+    type = "item",
+    slot = 16,
+},
+[17] = {
+    name = "oxygen-tank",
+    price = 1000,
+    amount = 15,
+    info = {},
+    type = "item",
+    slot = 17,
+},
 ```
