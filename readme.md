@@ -30,7 +30,7 @@
     ['electric_scrap']              = {['name'] = 'electric_scrap', 			['label'] = 'Electric Scrap', 			['weight'] = 0, 		['type'] = 'item', 		['image'] = 'electric_scrap.png',         		['unique'] = false, 	['useable'] = false, 	['shouldClose'] = false, 	['combinable'] = nil, 	['description'] = 'Electric Scrap'},
     ['ducttape']                    = {['name'] = 'ducttape', 					['label'] = 'ducttape', 				['weight'] = 100, 		['type'] = 'item', 		['image'] = 'ducttape.png', 		        	['unique'] = false, 	['useable'] = false, 	['shouldClose'] = false, 	['combinable'] = nil, 	['description'] = 'ducttape'},
 ```
-# NOTE for the haesware shop
+# NOTE for the hardware shop
 Dont forget to add the two items in your hardware shop.
 ```lua
 
