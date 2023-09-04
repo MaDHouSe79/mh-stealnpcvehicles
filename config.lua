@@ -19,7 +19,7 @@ Config.UsePayment = true
 Config.FuelPrice = 2 -- count per liter
 
 -- if you use mh-hunters
-Config.UseHunters = true
+Config.UseHunters = false
 Config.HunterDelay = 25000
 Config.AlertCooldown = 10000 -- 10 seconds
 
