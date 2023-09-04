@@ -3,7 +3,7 @@
 --[[ ===================================================== ]]--
 
 local user = "MaDHouSe79"
-local script = "mh-steelnpcvehicles"
+local script = "mh-stealnpcvehicles"
 
 local resourceName = nil
 
