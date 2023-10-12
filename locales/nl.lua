@@ -23,7 +23,7 @@ local Translations = {
         ['menu_option_1'] = "Steel Vehicle",
         ['menu_option_1_dec'] = "Steel",
         ['menu_option_2'] = "Onderdelen",
-        ['menu_option_1_dec'] = "Vernietig het voertuig voor onderdelen",
+        ['menu_option_2_dec'] = "Vernietig het voertuig voor onderdelen",
         ['menu_option_3'] = "Materialen",
         ['menu_option_3_dec'] = "Vernietig het voertuig voor materialen",
     },
