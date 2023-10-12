@@ -23,7 +23,7 @@ local Translations = {
         ['menu_option_1'] = "Steal Vehicle",
         ['menu_option_1_dec'] = "Steal",
         ['menu_option_2'] = "Parts",
-        ['menu_option_1_dec'] = "Destroy vehicle for parts",
+        ['menu_option_2_dec'] = "Destroy vehicle for parts",
         ['menu_option_3'] = "Materials",
         ['menu_option_3_dec'] = "Destroy vehicle for materials",
     },
