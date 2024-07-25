@@ -25,7 +25,6 @@ local function GiveCarParts(id)
             if item == "skirts" then amount = 2 end
             if item == "bumper" then amount = 2 end
             if item == "headlights" then amount = 2 end
-            --
             if item == "brakes1" then amount = 4 end
             if item == "stockrim" then amount = 4 end
             if item == "tire" then amount = 4 end
@@ -35,7 +34,7 @@ local function GiveCarParts(id)
             if item == "suspension1" then amount = 4 end
             if item == "sparkplugs" then amount = 4 end
             Player.Functions.AddItem(item, amount)
-            TriggerClientEvent('inventory:client:ItemBox', id, QBCore.Shared.Items[item], 'add', amount)
+            TriggerClientEvent('qb-inventory:client:ItemBox', id, QBCore.Shared.Items[item], 'add', amount)
             Citizen.Wait(500)
         end
 
@@ -48,7 +47,7 @@ local function GiveCarParts(id)
             local item = Config.ScrapItems[math.random(1, #Config.ScrapItems)]
             local amount = math.random(Config.MinItems, Config.MaxItems)
             Player.Functions.AddItem(item, amount)
-            TriggerClientEvent('inventory:client:ItemBox', id, QBCore.Shared.Items[item], 'add', amount)
+            TriggerClientEvent('qb-inventory:client:ItemBox', id, QBCore.Shared.Items[item], 'add', amount)
             Citizen.Wait(800)
         end
 
@@ -62,13 +61,13 @@ local function GiveRawMetarials(id)
             local item = Config.ScrapItems[math.random(1, #Config.ScrapItems)]
             local amount = math.random(Config.MinItems, Config.MaxItems)
             Player.Functions.AddItem(item, amount)
-            TriggerClientEvent('inventory:client:ItemBox', id, QBCore.Shared.Items[item], 'add', amount)
+            TriggerClientEvent('qb-inventory:client:ItemBox', id, QBCore.Shared.Items[item], 'add', amount)
             Citizen.Wait(800)
         end
         if math.random(1, 8) == math.random(1, 8) then
             local random = math.random(10, 20)
             Player.Functions.AddItem("rubber", random)
-            TriggerClientEvent('inventory:client:ItemBox', id, QBCore.Shared.Items["rubber"], 'add', random)
+            TriggerClientEvent('qb-inventory:client:ItemBox', id, QBCore.Shared.Items["rubber"], 'add', random)
         end
     end
 end
